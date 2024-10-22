@@ -1,0 +1,236 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: rgb(22, 22, 22);
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container {
+  margin-bottom: 90px;
+}
+
+/* #logo {
+  filter: drop-shadow(3px 5px 2px rgba(249, 247, 247, 0.4));
+} */
+
+
+
+nav a,
+nav>p {
+  color: white;
+  text-decoration: none;
+  padding: 0px;
+  line-height: 0.5em;
+}
+
+nav a:hover {
+  font-weight: 400;
+  color: white;
+}
+
+.desktop-nav {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.mobile-burger {
+  display: none;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+
+
+
+h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  padding-top: 130px;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 1000px;
+  padding-right: 100px;
+  margin-left: 10px;
+    text-align: right;
+}
+
+.main-text>p {
+  margin: 5px;
+}
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px 110px 0px 10px;
+  max-width: 1000px;
+  max-height: 1800px;
+}
+
+
+.portfolio-card {
+  flex-grow: 0;
+  min-width: 0;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  background-color: rgba(49, 50, 50, 0.5);
+  padding: 20px;
+  width: 50%;
+  overflow-wrap: break-word;
+  
+}
+
+
+.portfolio-card:hover {
+  box-shadow: 0 0 2px 1px rgba(255, 255, 255, 0.4);
+  transition: 20ms;
+}
+
+.portfolio-image {
+  height: 90px;
+  width: 100%;
+  object-fit: cover;
+  padding: 0px;
+}
+
+.project-title {
+  font-weight: 500;
+}
+
+.portf-icons {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.fa-github,
+.fa-arrow-up-right-from-square {
+  color: rgba(255, 255, 255, 0.63);
+  font-size: 130%;
+}
+
+.fa-github:hover,
+.fa-arrow-up-right-from-square:hover {
+  font-size: 132%;
+  color: white;
+}
+
+.longdesc>p {
+  margin-top: 5px;
+}
+
+footer {
+  padding: 10px 0px 15px 0px;
+  padding-left: 5px;
+  margin: 20px 0px 0px 0px;
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  position: absolute;
+  left: 10px;
+}
+
+
+/* @media screen and (max-height: 280px) {
+  footer {
+    display: none;
+  } 
+} */
+
+@media screen and (max-width: 580px) {
+
+  .desktop-menu {
+    display: none;
+  }
+
+  h1 {
+    padding-top: 20px;
+  }
+
+  .mobile-burger {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 58px;
+    /* border-top: 20px; */
+  }
+
+
+
+  .mobile-nav {
+    display: none;
+    /* top: 0px;
+  left: 0px;
+  padding: 40px 0px 8px 58px; */
+  }
+
+  .mobile-nav.open {
+    /* position: absolute; */
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 00px 0px 8px 58px;
+    margin-top: 40px;
+  }
+
+
+
+
+
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 1000px;
+    padding-right: 20px;
+    margin-left: 0px;
+    padding-top: 100px;
+  }
+
+
+
+
+
+
+  #portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 20px 0px 10px;
+    width: 100%;
+    max-height: 2200px;
+  }
+
+  .portfolio-card {
+    width: 100%;
+    min-width: 200px;
+    max-width: 400px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    background-color: rgba(49, 50, 50, 0.5);
+    padding: 20px;
+    overflow: auto;
+    align-content: space-between;
+  }
+}

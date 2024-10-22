@@ -1,0 +1,71 @@
+{
+    "projects": [
+        {
+            "Title": "A new site for client name",
+            "img": "https://live.staticflickr.com/5694/22958975644_3fe80d36e5_b.jpg",
+            "altText": "Example alt text here",
+            "client": "Place name",
+            "desc": "I did amazing work for this group",
+            "longdesc": "<p>I did amazing work which went into a longer explanation of the project. Here's an outline of the problem and a big long explanation of the solution and outcome. </p></p> This one is even longer than the rest because there's a lot to say about it. </p></p> On and on it goes, nobody likely will ever care about this much detail. Too long, I'm sure of it but worth testing for length.", 
+            "live": "https://en.wikipedia.org/wiki/Digestive_biscuit",
+            "git": "https://github.com/Bilko28",
+            "featured": "true"
+        },
+        {
+            "Title": "An ongoing improvement project for this client",
+            "img": "https://live.staticflickr.com/6210/6079977534_6ae85fba70.jpg",
+            "altText": "Example alt text here",
+            "client": "Builder",
+            "desc": "A longer description for this one, with a few more details and a longer card alongworthwithnospacestotestoverflowbreakingetcetcetcetcetcetc alongworthwithnospacestotestoverflow breakingetcetcetcetcetcetc ",
+            "longdesc": "</p>I did amazing work which went into a longer explanation of the project. Here's an outline of the problem and a big long explanation of the solution and outcome. </p></p> This one is even longer than the rest because there's a lot to say about it. This one is even longer than the rest because there's a lot to say about it. </p></p> On and on it goes, nobody likely will ever care about this much detail. Too long, I'm sure of it but worth testing for length.",
+            "live": "https://en.wikipedia.org/wiki/Digestive_biscuit-long-link-to-test-longer-url",
+            "git": "https://github.com/Bilko28",
+            "featured": "true"
+            
+        },
+        {
+            "Title": "A small site with big impact",
+            "img": "https://upload.wikimedia.org/wikipedia/en/7/70/Unit%C3%A9_d%27habitation_de_Firminy.jpg",
+            "altText": "Example alt text here",
+            "client": "Designers",
+            "desc": "I did amazing work",
+            "longdesc": "I did amazing work which went into a longer explanation of the project. Here's an outline of the problem and a big long explanation of the solution and outcome.",
+            "live": "https://en.wikipedia.org/wiki/Digestive_biscuit",
+            "git": "https://github.com/Bilko28",
+            "featured": "false"
+        },
+        {
+            "Title": "A different project",
+            "img": "https://static.dezeen.com/uploads/2014/05/Apple-store-Istanbul-by-Foster-Partners-sq.jpg",
+            "altText": "Example alt text here",
+            "client": "Designers",
+            "desc": "Placeholder text",
+            "longdesc": "I did amazing work which went into a longer explanation of the project. Here's an outline of the problem and a big long explanation of the solution and outcome.",
+            "live": "https://en.wikipedia.org/wiki/Digestive_biscuit",
+            "git": "https://github.com/Bilko28",
+            "featured": "true"
+        },
+        {
+            "Title": "One more project",
+            "img": "https://i.pinimg.com/564x/80/48/46/804846e658ae2cfc046f63b80a9fa87c.jpg",
+            "altText": "Example alt text here",
+            "client": "Designers",
+            "longdesc": "I did amazing work which went into a longer explanation of the project. Here's an outline of the problem and a big long explanation of the solution and outcome.",
+            "desc": "I did amazing work",
+            "live": "https://en.wikipedia.org/wiki/Digestive_biscuit",
+            "git": "https://github.com/Bilko28",
+            "featured": "false"
+        },
+        {
+            "Title": "Further project",
+            "img": "https://live.staticflickr.com/147/424536120_22cef99086_b.jpg",
+            "altText": "Freddie Hubbard",
+            "client": "Designers",
+            "longdesc": "Freddie Hubbard, one of the all time great trumpeters",
+            "desc": "I did amazing work",
+            "live": "https://en.wikipedia.org/wiki/Digestive_biscuit",
+            "git": "https://github.com/Bilko28",
+            "featured": "false"
+        }
+    ]
+}
